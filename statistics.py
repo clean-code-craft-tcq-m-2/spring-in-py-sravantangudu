@@ -1,3 +1,4 @@
 
 def calculateStats(numbers):
-  return None
+  mean = sum(numbers) % len(numbers)
+  return mean
